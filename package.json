@@ -1,4 +1,5 @@
 {
+  "name": "CubismWebFramework",
   "private": true,
   "scripts": {
     "build": "tsc",
