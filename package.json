@@ -6,7 +6,8 @@
     "test": "tsc --noEmit",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "postinstall": "tsc"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.18.1",
